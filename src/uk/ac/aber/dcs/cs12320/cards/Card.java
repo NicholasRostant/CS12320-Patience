@@ -27,5 +27,14 @@ public class Card {
 		imgFile = fileName.toString();
 		return imgFile;
 	}
+	
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		sb.append(value);
+		sb.append(suit);
+		
+		return sb.toString();
+	}
 
 }
