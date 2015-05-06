@@ -9,15 +9,19 @@ import java.io.FileReader;
 import java.io.BufferedReader;
 
 
+import java.io.FileWriter;
+
 import uk.ac.aber.dcs.cs12320.cards.gui.TheFrame;
 
 public class Game {
 	private Scanner scan;
 	private Deck deck;
 	private TheFrame frame;
+	private ScoreCard scores;
 	private ArrayList<String> playingField;
 	private int topOfDeck;
 	private int pilesOnField;
+	private String deckFile;
 	
 	public Game(){
 		scan = new Scanner(System.in);
@@ -31,6 +35,7 @@ public class Game {
 	}
 	
 	public void initialise(){
+		scan = new Scanner(System.in);
 		String input = null;
 		System.out.println("1 - Load default deck");
 		System.out.println("2 - Load custom deck");
@@ -39,12 +44,18 @@ public class Game {
 		
 		switch (input){
 		case "1":
-			deck = new Deck("cards.txt");
+			deckFile = "cards.txt";
+			deck = new Deck(deckFile);
+			scores = new ScoreCard("scores_cards.txt");
 			break;
 		case "2":
+			StringBuilder sb = new StringBuilder();
 			System.out.println("Enter deck file");
-			input = scan.next();
-			deck = new Deck(input);
+			deckFile = scan.next();
+			deck = new Deck(deckFile);
+			sb.append("scores_");
+			sb.append(deckFile);
+			scores = new ScoreCard(sb.toString());
 			break;
 		case "3":
 			System.exit(0);
@@ -97,11 +108,14 @@ public class Game {
 				case "7":
 					playForMe();
 					break;
+				case "8":
+					scores.printScores();
+					break;
 				case "R":
 					restart();
 					break;
 				case "Q":
-					System.exit(0);
+					exit();
 					break;
 				default:
 					System.out.println("Try again");
@@ -308,7 +322,7 @@ public class Game {
 		for(int i = 0; i < requiredPlays; i++){
 			try {
 				// 0.1 second sleep
-			    Thread.sleep(100);
+			    Thread.sleep(300);
 			} catch(InterruptedException ex) {
 			    Thread.currentThread().interrupt();
 			}
@@ -355,10 +369,29 @@ public class Game {
 	
 	
 	private void restart(){
+		try {
+			saveLow();
+			Thread.sleep(200);
+		} catch (InterruptedException e) {
+			System.out.println("Error ocurred while saving low scores");
+		}
 		frame.dispose();
 		Game app = new Game();
 		app.initialise();
 		app.runMenu();
+	}
+	
+	
+	private void exit(){
+		saveLow();
+		System.exit(0);
+	}
+	
+	private void saveLow(){
+		if (topOfDeck == deck.getSize()){
+			scores.addScore(playingField.size());
+		}
+		scores.saveCard(deckFile);
 	}
 	
 
