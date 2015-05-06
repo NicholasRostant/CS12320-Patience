@@ -1,15 +1,21 @@
 package uk.ac.aber.dcs.cs12320.cards;
 
+import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.Collections;
+import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.BufferedReader;
 
 
 import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 
 import uk.ac.aber.dcs.cs12320.cards.gui.TheFrame;
 
@@ -22,12 +28,14 @@ public class Game {
 	private int topOfDeck;
 	private int pilesOnField;
 	private String deckFile;
+	private int outputMode;
 	
 	public Game(){
 		scan = new Scanner(System.in);
 		playingField = new ArrayList <String>();
 		frame = new TheFrame();
 		topOfDeck = 0;
+		outputMode = 0;
 		
 		//Initialise at -1 as the first pile we create will have an index of 0
 		pilesOnField = -1;
@@ -111,6 +119,9 @@ public class Game {
 				case "8":
 					scores.printScores();
 					break;
+				case "T":
+					selectOutput();
+					break;
 				case "R":
 					restart();
 					break;
@@ -139,6 +150,7 @@ public class Game {
 		System.out.println("6 - Move piles in the middle");
 		System.out.println("7 - Play for me");
 		System.out.println("8 - Show best scores");
+		System.out.println("T - Toggle alternate output modes");
 		System.out.println("R - Restart application");
 		System.out.println("Q - Exit game");
 	}
@@ -189,7 +201,7 @@ public class Game {
 			
 			topOfDeck++;
 			pilesOnField++;
-			frame.cardDisplay(playingField);
+			output();
 						
 			if (topOfDeck > (deck.getSize() - 1)){
 				frame.allDone();
@@ -200,10 +212,9 @@ public class Game {
 	
 	private int lastPileBackOne(){
 		int changeMade = 0;
-		if (pilesOnField < 1){
-			System.out.println("Not enough piles available to do that!");
-		}
-		else{
+		if (pilesOnField > 0){
+
+
 			String sourceCard;
 			String destinationCard;
 			Character cardVal;
@@ -221,11 +232,8 @@ public class Game {
 				
 				pilesOnField--;
 				
-				frame.cardDisplay(playingField);
+				output();
 				changeMade = 1;
-			}
-			else{
-				System.out.println("Those cards don't match! Either value or suit must be the same.");
 			}
 		}
 		return changeMade;
@@ -233,10 +241,8 @@ public class Game {
 	
 	private int lastPileBackTwo(){
 		int changeMade = 0;
-		if (pilesOnField < 3){
-			System.out.println("Not enough piles available to do that!");
-		}
-		else{
+		if (pilesOnField > 2){
+
 			String sourceCard;
 			String destinationCard;
 			Character cardVal;
@@ -256,12 +262,10 @@ public class Game {
 				
 				pilesOnField--;
 				
-				frame.cardDisplay(playingField);
+				output();
 				changeMade = 1;
 			}
-			else{
-				System.out.println("Those cards don't match! Either value or suit must be the same.");
-			}
+			
 		}
 		return changeMade;
 	}
@@ -273,10 +277,8 @@ public class Game {
 		}
 		else{
 			
-			if (pilesOnField < 2){
-				System.out.println("Not enough piles available to do that!");
-			}
-			else{
+			if (pilesOnField > 1){
+
 				if (secondIndex == (firstIndex + 1) || secondIndex == (firstIndex + 3)){
 					String sourceCard;
 					String destinationCard;
@@ -297,11 +299,8 @@ public class Game {
 						
 						pilesOnField--;
 						
-						frame.cardDisplay(playingField);
+						output();
 						changeMade = 1;
-					}
-					else{
-						System.out.println("Those cards don't match! Either value or suit must be the same.");
 					}
 				}
 				else{
@@ -367,6 +366,93 @@ public class Game {
 		return changeMade;
 	}
 	
+	private void selectOutput(){
+		scan = new Scanner(System.in);
+		System.out.println("1 - Logfile output");
+		System.out.println("2 - Text output");
+		System.out.println("3 - Both");
+		String input = scan.next();
+		
+		switch (input){
+		case "1":
+			outputMode = 1;
+			try{
+				String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
+				FileWriter fw = new FileWriter("log.txt",true);
+				BufferedWriter bw = new BufferedWriter(fw);
+				PrintWriter outFile = new PrintWriter(bw);
+				
+				outFile.println("New Session Started at");
+				outFile.println(timeStamp);
+				outFile.print("Playing with deck: ");
+				outFile.println(deckFile);
+				outFile.close();
+			} catch (IOException e){
+				System.out.println("Unable to access log.txt");
+			}
+			break;
+		case "2":
+			outputMode = 2;
+			break;
+		case "3":
+			outputMode = 3;
+			try{
+				String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
+				FileWriter fw = new FileWriter("log.txt",true);
+				BufferedWriter bw = new BufferedWriter(fw);
+				PrintWriter outFile = new PrintWriter(bw);
+				
+				outFile.println("New Session Started at");
+				outFile.println(timeStamp);
+				outFile.print("Playing with deck: ");
+				outFile.println(deckFile);
+				outFile.close();
+			} catch (IOException e){
+				System.out.println("Unable to access log.txt");
+			}
+			break;
+		default:
+			System.out.println("Invalid input");
+			break;
+		}	
+	}
+	
+	private void output(){
+	
+		frame.cardDisplay(playingField);
+		
+		String card;
+
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i <= pilesOnField; i++){
+			card = playingField.get(i);
+			sb.append(card.charAt(0));
+			sb.append(card.charAt(1));
+			sb.append(" ");
+		}
+		
+		if (outputMode > 1){
+			
+			System.out.println(sb.toString());
+		}
+		
+		if (outputMode == 3 || outputMode == 1){
+			
+			try{
+			FileWriter fw = new FileWriter("log.txt",true);
+			BufferedWriter bw = new BufferedWriter(fw);
+			PrintWriter outFile = new PrintWriter(bw);
+			
+			outFile.println(sb.toString());
+			
+			outFile.close();
+			}
+			catch (IOException e){
+				System.out.println("Unable to access log file");
+			}
+		}
+		
+	}
 	
 	private void restart(){
 		try {

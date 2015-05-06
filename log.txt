@@ -1,0 +1,155 @@
+##Session times in this file formatted as
+##YYYYMMDD_HHmmSS
+/////////////////////////////////////////////
+New Session Started at
+20150506_211023
+Playing with deck: halfdeck.txt
+2s 
+2s 3s 
+3s 
+3s 2d 
+3s 2d 3h 
+3s 2d 3h 7c 
+3s 2d 3h 7c 4c 
+3s 2d 3h 4c 
+3s 2d 3h 4c 2h 
+3s 2h 3h 4c 
+3s 3h 4c 
+3h 4c 
+3h 4c 4d 
+3h 4d 
+3h 4d 7h 
+3h 4d 7h 5d 
+3h 4d 7h 5d 5c 
+3h 4d 7h 5c 
+3h 4d 7h 5c 5s 
+3h 4d 7h 5s 
+3h 4d 7h 5s 6s 
+3h 4d 7h 6s 
+3h 4d 7h 6s 5h 
+3h 4d 7h 6s 5h 6d 
+3h 4d 7h 6s 5h 6d ah 
+3h 4d 7h 6s 5h 6d ah 3c 
+3h 4d 7h 6s 5h 6d ah 3c 6c 
+3h 4d 7h 6s 5h 6d ah 6c 
+3h 4d 7h 6s 5h 6d ah 6c 4s 
+3h 4d 7h 6s 5h 6d ah 6c 4s as 
+3h 4d 7h 6s 5h 6d ah 6c as 
+3h 4d 7h 6s 5h 6d ah 6c as 2c 
+3h 4d 7h 6s 5h 6d ah 6c as 2c ac 
+3h 4d 7h 6s 5h 6d ah 6c as ac 
+3h 4d 7h 6s 5h 6d ah 6c ac 
+3h 4d 7h 6s 5h 6d ah ac 
+3h 4d 7h 6s 5h 6d ac 
+3h 4d 7h 6s 5h 6d ac 7d 
+3h 4d 7h 6s 5h 6d ac 7d 3d 
+3h 4d 7h 6s 5h 6d ac 3d 
+3h 4d 7h 6s 5h 6d ac 3d 6h 
+3h 4d 7h 6s 5h 6h ac 3d 
+3h 4d 6h 6s 5h ac 3d 
+3h 4d 6s 5h ac 3d 
+5h 4d 6s ac 3d 
+5h 3d 6s ac 
+5h 3d 6s ac 4h 
+5h 3d 6s ac 4h ad 
+5h 3d 6s ac 4h ad 7s 
+New Session Started at
+20150506_211122
+Playing with deck: cards.txt
+tc 
+tc 9h 
+tc 9h 4c 
+tc 9h 4c 5s 
+tc 9h 4c 5s 7h 
+tc 7h 4c 5s 
+tc 7h 4c 5s ks 
+tc 7h 4c ks 
+tc 7h 4c ks 7c 
+tc 7c 4c ks 
+7c 4c ks 
+4c ks 
+4c ks 5h 
+4c ks 5h js 
+4c ks 5h js 9s 
+4c ks 5h 9s 
+4c ks 5h 9s jd 
+4c ks 5h 9s jd 3c 
+4c ks 5h 9s jd 3c kd 
+4c ks 5h 9s jd 3c kd th 
+4c ks 5h 9s jd 3c kd th 4d 
+4c ks 5h 9s jd 3c kd th 4d ad 
+4c ks 5h 9s jd 3c kd th ad 
+4c ks 5h 9s jd 3c kd th ad 8c 
+4c ks 5h 9s jd 3c kd th ad 8c 3h 
+4c ks 5h 9s jd 3c kd 3h ad 8c 
+4c ks 5h 9s jd 3c kd 3h ad 8c 2d 
+4c ks 5h 9s jd 3c kd 3h ad 8c 2d qd 
+4c ks 5h 9s jd 3c kd 3h ad 8c qd 
+4c ks 5h 9s jd 3c kd 3h ad 8c qd 6d 
+4c ks 5h 9s jd 3c kd 3h ad 8c 6d 
+4c ks 5h 9s jd 3c kd 3h ad 8c 6d ah 
+4c ks 5h 9s jd 3c kd 3h ah 8c 6d 
+4c ks 5h 9s jd 3c kd ah 8c 6d 
+4c ks 5h 9s jd 3c 6d ah 8c 
+4c ks 5h 9s jd 8c 6d ah 
+4c ks 5h 9s jd 8c 6d ah as 
+4c ks 5h 9s jd 8c 6d as 
+4c ks 5h 9s jd 8c 6d as 9c 
+4c ks 5h 9s jd 9c 6d as 
+4c ks 5h 9s jd 9c 6d as ac 
+4c ks 5h 9s jd 9c 6d ac 
+4c ks 5h 9s jd 9c 6d ac jh 
+4c ks 5h 9s jd 9c 6d ac jh 2s 
+4c ks 5h 9s jd 9c 6d ac jh 2s kc 
+4c ks 5h 9s jd 9c 6d kc jh 2s 
+4c ks 5h 9s jd 9c 6d kc jh 2s 7s 
+4c ks 5h 9s jd 9c 6d kc jh 7s 
+4c ks 5h 9s jd 9c 6d kc jh 7s 2h 
+4c ks 5h 9s jd 9c 6d kc jh 7s 2h qh 
+4c ks 5h 9s jd 9c 6d kc jh 7s qh 
+4c ks 5h 9s jd 9c 6d kc jh 7s qh 5d 
+4c ks 5h 9s jd 9c 6d kc jh 7s qh 5d 6h 
+4c ks 5h 9s jd 9c 6d kc jh 7s qh 5d 6h 8h 
+4c ks 5h 9s jd 9c 6d kc jh 7s qh 5d 8h 
+4c ks 5h 9s jd 9c 6d kc jh 7s qh 5d 8h 4s 
+4c ks 5h 9s jd 9c 6d kc jh 7s qh 5d 8h 4s 2c 
+4c ks 5h 9s jd 9c 6d kc jh 7s qh 5d 8h 4s 2c kh 
+4c ks 5h 9s jd 9c 6d kc jh 7s qh 5d kh 4s 2c 
+4c ks 5h 9s jd 9c 6d kc jh 7s qh 5d kh 4s 2c 4h 
+4c ks 5h 9s jd 9c 6d kc jh 7s qh 5d 4h 4s 2c 
+4c ks 5h 9s jd 9c 6d kc jh 7s qh 5d 4s 2c 
+4c ks 5h 9s jd 9c 6d kc jh 4s qh 5d 2c 
+4c ks 5h 9s jd 9c 6d kc jh 4s qh 5d 2c 3s 
+4c ks 5h 9s jd 9c 6d kc jh 4s qh 5d 2c 3s 8s 
+4c ks 5h 9s jd 9c 6d kc jh 4s qh 5d 2c 8s 
+4c ks 5h 9s jd 9c 6d kc jh 4s qh 5d 2c 8s 6s 
+4c ks 5h 9s jd 9c 6d kc jh 4s qh 5d 2c 6s 
+4c ks 5h 9s jd 9c 6d kc jh 4s qh 5d 2c 6s qs 
+4c ks 5h 9s jd 9c 6d kc jh 4s qh 5d 2c qs 
+4c ks 5h 9s jd 9c 6d kc jh 4s qs 5d 2c 
+4c ks 5h 9s jd 9c 6d kc jh qs 5d 2c 
+4c ks 5h 9s jd 9c 6d kc jh qs 5d 2c jc 
+4c ks 5h 9s jd 9c 6d kc jh qs 5d jc 
+4c ks 5h 9s jd 9c 6d kc jc qs 5d 
+4c ks 5h 9s jd jc 6d kc qs 5d 
+4c ks 5h 9s jd jc 5d kc qs 
+4c ks 5h 9s jc 5d kc qs 
+4c ks 5d 9s jc kc qs 
+4c ks 5d qs jc kc 
+4c ks 5d qs kc 
+4c kc 5d qs 
+kc 5d qs 
+kc 5d qs td 
+kc 5d qs td 9d 
+kc 5d qs 9d 
+kc 5d qs 9d 3d 
+kc 5d qs 3d 
+kc 5d qs 3d qc 
+kc 5d qs 3d qc 5c 
+kc 5d qs 3d 5c 
+kc 5c qs 3d 
+5c qs 3d 
+5c qs 3d ts 
+5c qs 3d ts 8d 
+5c qs 3d ts 8d 6c 
+5c qs 3d ts 8d 6c 7d 

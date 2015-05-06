@@ -1,5 +1,7 @@
-6
+10
 Jack
+1
+Nick
 1
 Jill
 3
@@ -11,3 +13,9 @@ nick
 6
 Janice
 7
+Nick
+7
+HHH
+7
+Nick
+8

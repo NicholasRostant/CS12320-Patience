@@ -93,19 +93,19 @@ public class ScoreCard {
 		String tempName;
 		Scanner in = new Scanner(System.in);
 		if (cardLength > 9){
-			tempScore = scores.get(cardLength);
+			tempScore = scores.get(cardLength-1);
 			if (tempScore.getScore() > newScore){
 				System.out.println("You have qualified for a low score! Enter your name:");
 				tempName = in.nextLine();
 				scores.remove(tempScore);
-				tempScore = new Score(tempName, cardLength);
+				tempScore = new Score(tempName, newScore);
 				scores.add(tempScore);
 			}
 		} else {
 			System.out.println("You have qualified for a low score! Enter your name:");
 			tempName = in.nextLine();
 			cardLength++;
-			tempScore = new Score(tempName, cardLength);
+			tempScore = new Score(tempName, newScore);
 			scores.add(tempScore);
 		}
 		
