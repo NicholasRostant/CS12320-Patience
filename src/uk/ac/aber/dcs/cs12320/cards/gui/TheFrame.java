@@ -36,7 +36,7 @@ public class TheFrame extends JFrame {
 
 		// This is what we will draw on (see the inner class below)
 		canvas = new ThePanel();
-		setSize(700, 300);
+		setSize(1200, 300);
 		this.add(canvas, BorderLayout.CENTER);
 
 		setVisible(true); // Display the window

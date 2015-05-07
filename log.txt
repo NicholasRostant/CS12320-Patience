@@ -153,3 +153,312 @@ kc 5c qs 3d
 5c qs 3d ts 8d 
 5c qs 3d ts 8d 6c 
 5c qs 3d ts 8d 6c 7d 
+New Session Started at
+20150507_135242
+Playing with deck: cards.txt
+ks 
+ks 9s 
+ks 9s 9d 
+ks 9d 
+ks 9d as 
+ks 9d as ad 
+ks 9d ad 
+ks 9d ad qc 
+ks 9d ad qc 3h 
+ks 9d ad qc 3h 2d 
+ks 9d 2d qc 3h 
+ks 2d qc 3h 
+ks 2d qc 3h 6d 
+ks 6d qc 3h 
+ks 6d qc 3h ah 
+ks 6d qc ah 
+ks 6d qc ah kh 
+ks 6d qc ah kh 7s 
+ks 6d qc ah kh 7s jd 
+ks 6d qc kh 7s jd 
+kh 6d qc 7s jd 
+kh jd qc 7s 
+kh jd qc 7s 6c 
+kh jd qc 7s 6c qs 
+kh jd qc 7s 6c qs ac 
+kh jd qc 7s 6c qs ac 4d 
+kh jd qc 7s 6c qs ac 4d qh 
+kh jd qc 7s 6c qh ac 4d 
+kh jd qc 7s 6c qh ac 4d 7c 
+kh jd qc 7s 6c qh ac 4d 7c 9h 
+kh jd qc 7s 6c qh ac 4d 7c 9h 8h 
+kh jd qc 7s 6c qh ac 4d 7c 8h 
+kh jd qc 7s 6c qh ac 4d 7c 8h 4s 
+kh jd qc 7s 6c qh ac 4s 7c 8h 
+kh jd qc 7s 6c qh ac 4s 7c 8h js 
+kh jd qc 7s 6c qh ac js 7c 8h 
+kh jd qc 7s 6c qh ac js 7c 8h kc 
+kh jd qc 7s 6c qh ac js 7c 8h kc ts 
+kh jd qc 7s 6c qh ac js 7c 8h kc ts 4h 
+kh jd qc 7s 6c qh ac js 7c 8h kc ts 4h 3d 
+kh jd qc 7s 6c qh ac js 7c 8h kc ts 4h 3d kd 
+kh jd qc 7s 6c qh ac js 7c 8h kc ts 4h kd 
+kh jd qc 7s 6c qh ac js 7c 8h kd ts 4h 
+kh jd qc 7s 6c qh ac js 7c 8h kd ts 4h 3c 
+kh jd qc 7s 6c qh ac js 7c 8h kd ts 4h 3c 5s 
+kh jd qc 7s 6c qh ac js 7c 8h kd 5s 4h 3c 
+kh jd qc 7s 6c qh ac js 7c 8h kd 5s 4h 3c 5h 
+kh jd qc 7s 6c qh ac js 7c 8h kd 5h 4h 3c 
+kh jd qh 7s 6c ac js 7c 8h kd 5h 4h 3c 
+kh jd qh js 6c ac 7c 8h kd 5h 4h 3c 
+kh jd qh js ac 7c 8h kd 5h 4h 3c 
+kh jd qh js 7c 8h kd 5h 4h 3c 
+kh jd 8h js 7c kd 5h 4h 3c 
+kh jd 8h js 7c kd 4h 3c 
+kh jd 8h js 3c kd 4h 
+kh jd 8h js 3c kd 4h 5c 
+kh jd 8h js 5c kd 4h 
+kh jd 8h js 5c kd 4h tc 
+kh jd 8h js tc kd 4h 
+kh jd 8h js tc kd 4h 9c 
+kh jd 8h js 9c kd 4h 
+kh jd 8h js 9c kd 4h 7d 
+kh jd 8h js 9c kd 4h 7d td 
+kh jd 8h js 9c kd 4h td 
+kh jd 8h js 9c kd 4h td 6s 
+kh jd 8h js 9c kd 4h td 6s 2s 
+kh jd 8h js 9c kd 4h td 2s 
+kh jd 8h js 9c kd 4h td 2s jh 
+kh jd 8h js 9c kd jh td 2s 
+kh jd 8h jh 9c kd td 2s 
+jh jd 8h 9c kd td 2s 
+jd 8h 9c kd td 2s 
+kd 8h 9c td 2s 
+td 8h 9c 2s 
+td 8h 9c 2s 8d 
+td 8d 9c 2s 
+8d 9c 2s 
+8d 9c 2s th 
+8d 9c 2s th 5d 
+8d 9c 2s th 5d 8s 
+8d 9c 8s th 5d 
+8d 9c 8s th 5d 4c 
+8d 9c 8s th 5d 4c qd 
+8d 9c 8s th 5d 4c qd jc 
+8d 9c 8s th 5d 4c qd jc 7h 
+8d 9c 8s th 5d 4c qd jc 7h 2h 
+8d 9c 8s th 5d 4c qd jc 2h 
+8d 9c 8s th 5d 4c qd jc 2h 3s 
+8d 9c 8s th 5d 4c qd jc 2h 3s 2c 
+8d 9c 8s th 5d 4c qd 2c 2h 3s 
+8d 9c 8s th 5d 4c qd 2h 3s 
+8d 9c 8s th 5d 4c qd 2h 3s 8c 
+8d 9c 8s th 5d 4c qd 2h 3s 8c 6h 
+8d 9c 8s th 5d 4c qd 6h 3s 8c 
+New Session Started at
+20150507_135458
+Playing with deck: halfdeck.txt
+as 
+as 3s 
+3s 
+3s ah 
+3s ah ac 
+3s ac 
+3s ac 6c 
+3s 6c 
+3s 6c ad 
+3s 6c ad 3c 
+3c 6c ad 
+6c ad 
+6c ad 6d 
+6c 6d 
+6d 
+6d 2h 
+6d 2h 6h 
+6d 6h 
+6h 
+6h 7d 
+6h 7d 7h 
+6h 7h 
+7h 
+7h 5d 
+7h 5d 6s 
+7h 5d 6s 4c 
+7h 5d 6s 4c 7c 
+7h 5d 6s 7c 
+7c 5d 6s 
+7c 5d 6s 3d 
+7c 5d 6s 3d 2d 
+7c 5d 6s 2d 
+7c 5d 6s 2d 5s 
+7c 5s 6s 2d 
+7c 6s 2d 
+7c 6s 2d 5c 
+5c 6s 2d 
+5c 6s 2d 5h 
+5h 6s 2d 
+5h 6s 2d 4s 
+5h 6s 2d 4s 2s 
+5h 6s 2d 2s 
+5h 6s 2s 
+5h 2s 
+5h 2s 7s 
+5h 7s 
+5h 7s 2c 
+5h 7s 2c 4h 
+4h 7s 2c 
+4h 7s 2c 4d 
+4d 7s 2c 
+4d 7s 2c 3h 
+New Session Started at
+20150507_152002
+Playing with deck: cards.txt
+6c 
+6c 3s 
+6c 3s 8h 
+6c 3s 8h 2h 
+6c 3s 2h 
+6c 3s 2h 5h 
+6c 3s 5h 
+6c 3s 5h kc 
+kc 3s 5h 
+kc 3s 5h 8s 
+kc 3s 5h 8s 5s 
+kc 3s 5h 5s 
+kc 3s 5s 
+kc 5s 
+kc 5s 4h 
+kc 5s 4h 7s 
+kc 5s 4h 7s 2s 
+kc 5s 4h 2s 
+kc 5s 4h 2s js 
+kc 5s 4h js 
+kc 5s 4h js 9h 
+kc 5s 4h js 9h 9s 
+kc 5s 4h js 9s 
+kc 5s 4h 9s 
+kc 5s 4h 9s th 
+kc 5s 4h 9s th ad 
+kc 5s 4h 9s th ad 3h 
+kc 5s 4h 9s th ad 3h qh 
+kc 5s 4h 9s th ad qh 
+kc 5s 4h 9s th ad qh 9c 
+kc 5s 4h 9s th ad qh 9c 4d 
+kc 5s 4h 9s th 4d qh 9c 
+kc 5s 4d 9s th qh 9c 
+kc 5s 4d 9c th qh 
+kc 5s 4d 9c qh 
+9c 5s 4d qh 
+9c 5s 4d qh 4c 
+9c 5s 4d qh 4c qd 
+9c 5s qd qh 4c 
+9c 5s qh 4c 
+4c 5s qh 
+4c 5s qh td 
+4c 5s qh td 6h 
+4c 5s qh td 6h ks 
+4c 5s qh td 6h ks ac 
+4c 5s qh td 6h ks ac 8d 
+4c 5s qh td 6h ks ac 8d 2d 
+4c 5s qh td 6h ks ac 2d 
+4c 5s qh td 6h ks ac 2d 7c 
+4c 5s qh td 6h ks ac 2d 7c ah 
+4c 5s qh td 6h ks ah 2d 7c 
+4c 5s qh td 6h ks ah 2d 7c 5c 
+4c 5s qh td 6h ks ah 2d 5c 
+4c 5s qh td 6h ks ah 2d 5c 6s 
+4c 5s qh td 6h ks ah 2d 5c 6s 6d 
+4c 5s qh td 6h ks ah 2d 5c 6d 
+4c 5s qh td 6h ks ah 2d 5c 6d kh 
+4c 5s qh td 6h ks ah 2d 5c 6d kh 9d 
+4c 5s qh td 6h ks ah 2d 5c 6d kh 9d 5d 
+4c 5s qh td 6h ks ah 2d 5c 6d kh 5d 
+4c 5s qh td 6h ks ah 2d 5d 6d kh 
+4c 5s qh td 6h ks ah 5d 6d kh 
+4c 5s qh td 6h ks kh 5d 6d 
+4c 5s qh td 6h ks kh 6d 
+4c 5s qh td 6d ks kh 
+4c 5s qh td 6d kh 
+4c 5s kh td 6d 
+4c 5s kh 6d 
+4c 5s kh 6d qs 
+4c qs kh 6d 
+4c qs kh 6d jd 
+4c qs kh jd 
+4c qs kh jd 3c 
+4c qs kh jd 3c 3d 
+4c qs kh jd 3d 
+4c qs kh 3d 
+4c qs kh 3d qc 
+4c qc kh 3d 
+qc kh 3d 
+qc kh 3d 7h 
+qc kh 3d 7h 8c 
+qc kh 3d 7h 8c 2c 
+qc kh 3d 7h 2c 
+qc kh 3d 7h 2c jc 
+qc kh 3d 7h jc 
+qc kh 3d 7h jc 4s 
+qc kh 3d 7h jc 4s jh 
+qc kh 3d jh jc 4s 
+qc kh 3d jc 4s 
+jc kh 3d 4s 
+jc kh 3d 4s as 
+jc kh 3d as 
+jc kh 3d as 7d 
+jc kh 3d as 7d kd 
+jc kh 3d as kd 
+jc kd 3d as 
+jc 3d as 
+jc 3d as tc 
+tc 3d as 
+tc 3d as ts 
+tc 3d ts 
+New Session Started at
+20150507_152246
+Playing with deck: halfdeck.txt
+6c 
+6c 4c 
+4c 
+4c 2c 
+2c 
+2c 5s 
+2c 5s 7s 
+2c 7s 
+2c 7s 2s 
+2c 7s 2s 3d 
+2c 7s 2s 3d ad 
+2c 7s 2s ad 
+2c 7s 2s ad 5c 
+2c 7s 2s ad 5c 2d 
+2c 2s ad 5c 2d 
+2s ad 5c 2d 
+2s ad 5c 2d 4h 
+2s ad 5c 2d 4h 3s 
+2s ad 5c 2d 4h 3s as 
+2s ad 5c 2d 4h as 
+2s ad 5c 2d 4h as 4s 
+2s ad 5c 2d 4h 4s 
+2s ad 5c 2d 4s 
+2s ad 5c 2d 4s 7d 
+2s ad 5c 2d 4s 7d 5d 
+2s ad 5c 2d 4s 5d 
+2s ad 5d 2d 4s 
+2s 5d 2d 4s 
+2s 2d 4s 
+2d 4s 
+2d 4s ac 
+2d 4s ac 3h 
+2d 4s ac 3h 7h 
+2d 4s ac 7h 
+2d 4s ac 7h 7c 
+2d 4s ac 7c 
+2d 4s 7c 
+2d 4s 7c 6d 
+6d 4s 7c 
+6d 4s 7c 6h 
+6h 4s 7c 
+6h 4s 7c 5h 
+5h 4s 7c 
+5h 4s 7c 2h 
+2h 4s 7c 
+2h 4s 7c ah 
+ah 4s 7c 
+ah 4s 7c 6s 
+ah 4s 7c 6s 4d 
+ah 4d 7c 6s 
